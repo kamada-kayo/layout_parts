@@ -1,5 +1,39 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.cf::before,
+.cf::after {
+  display: block;
+  clear: both;
+  content: "";
+}
 
+.container{
+  width: 900px;
+  height: 100%;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  margin: 0 auto;
+  background-color: #eff3f4;
+}
+
+.box1{
+  padding: 20px 20px 0 20px;
+}
+
+.box1 img{
+  float: left;
+  margin: 0 20px 10px 0;
+
+}
+
+.box2{
+  padding: 0 20px 20px 20px;
+}
+
+.box2 img{
+  float: right;
+  margin: 0 0 10px 20px;
+}
 /* 回答はここに書いてね */

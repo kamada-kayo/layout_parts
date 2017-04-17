@@ -1,5 +1,148 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q10{
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
 
+.q10_title_box{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.q10_title_line{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.q10_title{
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #ECF1F2;
+}
+
+.cf::before,
+.cf::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.q10_box_left{
+  float: left;
+  width: 300px;
+  }
+
+li:not(:first-child){
+  margin-top: 20px;
+}
+
+.q10_left_title{
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.is-required{
+  color: #F00;
+}
+
+.q10_left_text{
+  float: right;
+  width: 180px;
+  line-height: 25px;
+}
+
+.q10_left_input{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 12px;
+  background-color: #fff;
+  border: none;
+}
+
+.q10_box_radio{
+  cursor: pointer;
+}
+
+.q10_radio_btn{
+  display: none;
+}
+
+.q10_radio_ball{
+  position: relative;
+  padding: 3px 3px 3px 20px;
+}
+
+.q10_radio_ball:before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.q10_radio_btn:checked + .q10_radio_ball:after{
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+.q10_box_submit{
+  float: right;
+  width: 180px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.q10_submit{
+  vertical-align: middle;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #00BCD4
+}
+
+.q10_box_right{
+  float: right;
+  width: 380px;
+  height: 210px;
+}
+
+.q10_right_text{
+  width: 360px;
+  height: 190px;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
 /* 回答はここに書いてね */

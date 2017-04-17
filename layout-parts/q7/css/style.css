@@ -1,5 +1,174 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+*{
+  -webkit-appearance: none;
+}
 
+.q7{
+  text-align: center;
+}
+
+.q7_box{
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.q7_box_1{
+  padding: 5px;
+  margin: 10px;
+  font-size: 16px;
+  vertical-align: middle;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+}
+
+.q7_box_1::-webkit-input-placeholder{
+  color: #00BCD4;
+}
+
+.q7_box_2{
+  height: 40px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  resize: none;
+}
+
+input[type=radio]{
+  -webkit-appearance: radio;
+  box-sizing: border-box;
+}
+
+.q7_radio{
+  cursor: pointer;
+  margin: 5px;
+}
+
+.q7_radio_box{
+  display: none;
+}
+
+.q7_radio_ball{
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 12px;
+  vertical-align: middle;
+}
+
+.q7_radio_ball:before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.q7_radio_box:checked + .q7_radio_ball:after{
+position: absolute;
+top: 50%;
+left: 4px;
+width: 8px;
+height: 8px;
+margin-top: -4px;
+background-color: #00BCD4;
+border-radius: 50%;
+content: '';
+}
+
+.q7_check{
+  cursor: pointer;
+}
+
+.q7_check_box{
+  display: none;
+}
+
+.q7_check_line{
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 15px;
+}
+
+.q7_check_line:before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+
+.q7_check_box:checked + .q7_check_line:after{
+  position: absolute;
+  top: -3px;
+  left: 3px;
+  width: 13px;
+  height: 5px;
+  border-bottom: 2px solid #00BCD4;
+  border-left: 2px solid #00BCD4;
+  content: '';
+  transform: rotate(-45deg);
+}
+
+.q7_select{
+  position: relative;
+  background-color: #fff;
+}
+
+.q7_select_option{
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 30px 5px 5px;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: default;
+}
+
+.q7_select:after{
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  transform: rotate(-45deg);
+  content: '';
+  display: block;
+}
+
+.option{
+  font-weight: normal;
+  display: block;
+  white-space: 1.2em;
+  padding: 0 2px 1px;
+}
+
+.q7_button{
+  vertical-align: middle;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  color: #00BCD4;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.q7_button:active{
+  background-color: #00BCD4;
+  color: #fff;
+}
 /* 回答はここに書いてね */
