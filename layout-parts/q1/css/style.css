@@ -8,27 +8,30 @@
   content: "";
 }
 
-.body{
+.body {
   font-size: 16px;
   line-height: 16px;
 }
 
-.box1{
+.box1 {
   width: 900px;
-  height: 100vh;
   margin: 0 auto;
+  padding: 20px;
   background-color: #eff3f4;
 }
 
-.box1>li{
+.box1 > li {
   float: left;
-  margin: 20px auto 20px 20px;
   width: 270px;
   height: auto;
   background-color: #3274ae;
 }
 
-.box2{
+li:nth-child(n+2) {
+  margin-left: 20px;
+  }
+
+.box2 {
   float: left;
   margin: 20px;
   padding: 20px;

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.balloon{
+.balloon {
   position: relative;
   font-size: 16px;
   line-height:  16px;
@@ -12,29 +12,29 @@
   border-radius: 30px;
 }
 
-.balloon:before{
-  bottom: -45px;
-  left: 30px;
+.balloon:before {
+  bottom: -30px;
+  left: 45px;
   border: #222;
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 45px solid #222;
-  border-left: 45px solid transparent;
-  border-right: 45px solid transparent;
+  border-top: 30px solid #222;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
   content: '';
 }
 
-.balloon:after{
-  bottom: -38px;
-  left: 30px;
+.balloon:after {
+  bottom: -23px;
+  left: 53px;
   border: #222;
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 45px solid #fff;
-  border-left: 45px solid transparent;
-  border-right: 45px solid transparent;
+  border-top: 23px solid #fff;
+  border-left: 22px solid transparent;
+  border-right: 22px solid transparent;
   content: '';
 }
 /* 回答はここに書いてね */

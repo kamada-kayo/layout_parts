@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q10{
+.q10 {
   width: 700px;
   margin: 0 auto;
   padding: 20px;
   background-color: #ECF1F2;
 }
 
-.q10_title_box{
+.q10_title_box {
   position: relative;
   margin-bottom: 20px;
 }
 
-.q10_title_line{
+.q10_title_line {
   position: absolute;
   top: 50%;
   left: 0;
@@ -22,7 +22,7 @@
   background-color: #ccc;
 }
 
-.q10_title{
+.q10_title {
   position: relative;
   display: inline-block;
   padding-right: 10px;
@@ -37,33 +37,33 @@
   clear: both;
   content: "";
 }
-.q10_box_left{
+.q10_box_left {
   float: left;
   width: 300px;
   }
 
-li:not(:first-child){
+li:not(:first-child) {
   margin-top: 20px;
 }
 
-.q10_left_title{
+.q10_left_title {
   float: left;
   width: 100px;
   line-height: 25px;
   text-align: right;
 }
 
-.is-required{
+.is-required {
   color: #F00;
 }
 
-.q10_left_text{
+.q10_left_text {
   float: right;
   width: 180px;
   line-height: 25px;
 }
 
-.q10_left_input{
+.q10_left_input {
   width: 100%;
   padding: 5px;
   border-radius: 3px;
@@ -71,22 +71,23 @@ li:not(:first-child){
   line-height: 12px;
   background-color: #fff;
   border: none;
+  box-sizing: border-box;
 }
 
-.q10_box_radio{
+.q10_box_radio {
   cursor: pointer;
 }
 
-.q10_radio_btn{
+.q10_radio_btn {
   display: none;
 }
 
-.q10_radio_ball{
+.q10_radio_ball {
   position: relative;
   padding: 3px 3px 3px 20px;
 }
 
-.q10_radio_ball:before{
+.q10_radio_ball:before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -99,7 +100,7 @@ li:not(:first-child){
   content: '';
 }
 
-.q10_radio_btn:checked + .q10_radio_ball:after{
+.q10_radio_btn:checked + .q10_radio_ball:after {
   position: absolute;
   top: 50%;
   left: 4px;
@@ -111,14 +112,14 @@ li:not(:first-child){
   content: '';
 }
 
-.q10_box_submit{
+.q10_box_submit {
   float: right;
   width: 180px;
   line-height: 25px;
   text-align: right;
 }
 
-.q10_submit{
+.q10_submit {
   vertical-align: middle;
   font-size: 16px;
   padding: 5px 10px;
@@ -129,13 +130,13 @@ li:not(:first-child){
   background-color: #00BCD4
 }
 
-.q10_box_right{
+.q10_box_right {
   float: right;
   width: 380px;
   height: 210px;
 }
 
-.q10_right_text{
+.q10_right_text {
   width: 360px;
   height: 190px;
   padding: 10px;

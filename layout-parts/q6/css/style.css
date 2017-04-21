@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.button_s{
+.btn_small {
   font-size: 16px;
   border-radius: 3px;
   height: 26px;
@@ -13,28 +13,28 @@
   vertical-align: middle;
 }
 
-.s_1,.m_1,.l_1{
+.btn_1 {
   color: #fff;
   background-color: #00bcd4;
 }
 
-.s_2,.m_2,.l_2{
+.btn_2 {
   color: #fff;
   background-color: #ff4081;
 }
 
-.s_3,.m_3,.l_3{
+.btn_3 {
   color: #fff;
   background-color: #e5e5e5;
 }
 
-.s_4,.m_4,.l_4{
+.btn_4 {
   color: #222;
   background-color: #fff;
   box-shadow: 0 1px 6px rgba(0, 0, 0, .12),0 1px 4px rgba(0, 0, 0, .12);
 }
 
-.button_m{
+.btn_middle {
   font-size: 20px;
   border-radius: 5px;
   height: 32px;
@@ -46,7 +46,7 @@
   vertical-align: middle;
 }
 
-.button_l{
+.btn_large {
   font-size: 24px;
   border-radius: 7px;
   height: 38px;

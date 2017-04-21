@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.food{
+.food {
   table-layout: auto;
   margin: 0 auto;
   width: 100%;
@@ -9,7 +9,7 @@
   border-collapse: collapse;
 }
 
-.food th{
+.food th {
   padding: 10px;
   color: #fff;
   font-size: 18px;
@@ -18,21 +18,21 @@
   border: solid #dedede 1px;
 }
 
-.food td{
+.food td {
   padding: 10px;
   text-align: center;
   border: solid #dedede 1px;
 }
 
-.food tr:nth-child(odd){
-background-color: #ecf1f2;
+.food tr:nth-child(odd) {
+  background-color: #ecf1f2;
 }
 
-.food tr:last-child{
-border-top: dashed #000 2px;
+.food tr:last-child {
+  border-top: dashed #000 2px;
 }
 
-.food tr:non(th){
+.food tr:non(th) {
   font-size: 16px;
   line-height: 22px;
 }

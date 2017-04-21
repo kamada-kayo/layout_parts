@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.container{
+.container {
   margin: 0 auto;
   position: relative;
   left: 0;
@@ -14,91 +14,79 @@
   line-height: 100px;
 }
 
-.number8{
+.q4_box {
   position: absolute;
-  top: 120px;
-  left: 120px;
   width: 100px;
   height: 100px;
+}
+
+.number8 {
+  top: 120px;
+  left: 120px;
   background-color: #de70cf;
   z-index: 8;
 }
-.number5{
-  position: absolute;
+
+.number5 {
   top: 360px;
   left: 200px;
-  width: 100px;
-  height: 100px;
   background-color: #9fd6d2;
   z-index: 5;
 }
-.number1{
-  position: absolute;
+
+.number1 {
   top: 40px;
   left: 200px;
-  width: 100px;
-  height: 100px;
   background-color: #ffefd3;
   z-index: 1;
 }
-.number7{
-  position: absolute;
+
+.number7 {
   top: 200px;
   left: 40px;
-  width: 100px;
-  height: 100px;
   background-color: #deae70;
   z-index: 7;
-
 }
-.number4{
-  position: absolute;
+
+.number4 {
   top: 280px;
   left: 280px;
-  width: 100px;
-  height: 100px;
   background-color: #8b7a5e;
   z-index: 4;
 }
-.number6{
-  position: absolute;
+
+.number6 {
   top: 280px;
   left: 120px;
-  width: 100px;
-  height: 100px;
   background-color: #fffee4;
   z-index: 6;
 }
-.number2{
-  position: absolute;
+
+.number2 {
   top: 120px;
   left: 280px;
-  width: 100px;
-  height: 100px;
   background-color: #7084de;
   z-index: 2;
 }
-.number3{
-  position: absolute;
+
+.number3 {
   top: 200px;
   left: 360px;
-  width: 100px;
-  height: 100px;
   background-color: #d0ecea;
   z-index: 3;
 }
 
-.number8:before{
+.number8:before {
   position: absolute;
   content: '';
-  top: -20;
-  right:  0;
+  top: 0;
+  right: 0;
   height: 20px;
   width: 20px;
   background-color: #ffefd3;
 }
 
-.number9{
+.number9 {
   position: fixed;
   top: 10px;
   left: 10px;

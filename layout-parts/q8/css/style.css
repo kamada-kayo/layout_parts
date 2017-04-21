@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてねc */
-.container1,.container2{
+.container1,.container2 {
   display: table;
   width: 100%;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
-.box_1_1{
+.box_1_1 {
   background-color: #fdc8b8;
   width: 100px;
   display: table-cell;
@@ -15,36 +16,36 @@
   padding: 20px;
 }
 
-.box_1_2{
-background-color: #e0abd9;
-display: table-cell;
-text-align: center;
-padding: 20px;
+.box_1_2 {
+  background-color: #e0abd9;
+  display: table-cell;
+  text-align: center;
+  padding: 20px;
 }
 
-.box_1_3{
-background-color: #b6d8ed;
-width: 100px;
-display: table-cell;
-text-align: center;
-padding: 20px;
+.box_1_3 {
+  background-color: #b6d8ed;
+  width: 100px;
+  display: table-cell;
+  text-align: center;
+  padding: 20px;
 }
 
-.box_2_1{
+.box_2_1 {
   background-color: #e5d32e;
   display: table-cell;
   text-align: center;
   padding: 20px;
 }
 
-.box_2_2{
+.box_2_2 {
   background-color: #e4e67c;
   display: table-cell;
   text-align: center;
   padding: 20px;
 }
 
-.box_2_3{
+.box_2_3 {
   background-color: #8fdcad;
   width: 500px;
   display: table-cell;

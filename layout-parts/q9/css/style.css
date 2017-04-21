@@ -2,44 +2,40 @@
 
 /* 回答はここに書いてね */
 
-.container{
+.container {
   background-color: #ecf1f2;
   width: 100%;
   margin: 0 auto;
   font-size: 0;
-  padding: 0 20px 20px 0;
-}
-
-.q9_grid{
-  padding-left: 20px;
-  padding-top: 20px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .grid12, .grid6, .grid4,
-.grid3, .grid2_4, .grid2{
+.grid3, .grid2_4, .grid2 {
   display: inline-block
 }
 
-.grid12{
-width: 100%;
+.grid12 {
+  width: 100%;
 }
-.grid6{
-width: 50%;
+.grid6 {
+  width: 50%;
 }
-.grid4{
-width: 33.3333%;
+.grid4 {
+  width: 33.3333%;
 }
-.grid3{
-width: 25%;
+.grid3 {
+  width: 25%;
 }
-.grid2_4{
-width: 20%;
+.grid2_4 {
+  width: 20%;
 }
-.grid2{
-width: 16.6666%;
+.grid2 {
+  width: 16.6666%;
 }
 
-.col{
+.col {
   display: block;
   margin: 10px;
   padding: 0;
@@ -48,13 +44,5 @@ width: 16.6666%;
   text-align: center;
   line-height: 50px;
   vertical-align: middle;
-}
-
-[class*='col']{
-  padding-right: 20px;
-}
-
-[class*='col']:last-of-type{
-  padding-right: 0;
 }
 /* 回答はここに書いてね */
