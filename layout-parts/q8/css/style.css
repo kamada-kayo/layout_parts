@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてねc */
-.container1,.container2 {
+.container1,
+.container2 {
   display: table;
   width: 100%;
   margin: 0 auto;

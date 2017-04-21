@@ -37,12 +37,13 @@
   clear: both;
   content: "";
 }
+
 .q10_box_left {
   float: left;
   width: 300px;
-  }
+}
 
-li:not(:first-child) {
+.q10_left_items > li:not(:first-child) {
   margin-top: 20px;
 }
 

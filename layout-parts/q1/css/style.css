@@ -27,7 +27,7 @@
   background-color: #3274ae;
 }
 
-li:nth-child(n+2) {
+.box1 > li:nth-child(n+2) {
   margin-left: 20px;
   }
 

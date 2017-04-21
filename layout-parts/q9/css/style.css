@@ -11,8 +11,12 @@
   box-sizing: border-box;
 }
 
-.grid12, .grid6, .grid4,
-.grid3, .grid2_4, .grid2 {
+.grid12,
+.grid6,
+.grid4,
+.grid3,
+.grid2_4,
+.grid2 {
   display: inline-block
 }
 
